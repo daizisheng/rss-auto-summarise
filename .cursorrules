@@ -1,0 +1,15 @@
+# 目标：
+
+- 从notion上获取RSS数据，下载RSS内容，并进行总结，然后把总结的结果写入notion
+
+# 注意事项
+
+## javascript 程序
+
+- 不要省略分号
+- 使用 request 包进行网络数据处理
+- 尽量避免 callback hell
+- 函数直接用 function 声明，不要用箭头函数
+- 尽量不返回 promise, 直接用async函数
+- 所有 javascript 文件, 都可以用node直接执行, 执行的是文件中的main函数。文件也可以作为模块被其他文件引用。
+- 所有缓存文件放在 data/ 目录下
