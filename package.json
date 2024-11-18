@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "openai": "^4.72.0",
     "request": "^2.88.2",
     "request-promise-native": "^1.0.9",
     "rss-parser": "^3.13.0",
+    "tiktoken": "^1.0.17",
     "yargs": "^17.7.2"
   }
 }
